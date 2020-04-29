@@ -21,7 +21,7 @@ All **Inbound Rules** with `type = HTTP` or `type = HTTPS` of each **Firewall** 
 ### How to install
 
  1) `git clone https://github.com/offensive-hub/digitalocean-firewall.git`
- 2) `cd cloudflare-update-firewall`
+ 2) `cd digitalocean-firewall`
  3) `sudo pip install -U -r requirements.txt`
  4) `cp .env.example .env && chmod 600 .env`
  5) Write right [Digital Ocean Access Token](https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token/) in **.env** file
@@ -30,7 +30,7 @@ All **Inbound Rules** with `type = HTTP` or `type = HTTPS` of each **Firewall** 
 
  1) Create **Inbound Rules** with type **HTTP** and **HTTPS** as following:
     ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/DigitalOcean_Rules.png)
- 2) Execute `./update-firewall.py` to update these DigitalOcean Inbound Rules.
+ 2) Execute `./update-firewalls.py` to update these DigitalOcean Inbound Rules.
 
 ### Authors
 
