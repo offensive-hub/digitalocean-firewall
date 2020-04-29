@@ -29,10 +29,11 @@ All **Inbound Rules** with `type = HTTP` or `type = HTTPS` of each **Firewall** 
 
 ### Example
 
- 1) Create **Inbound Rules** with type **HTTP** and **HTTPS** as following:
-    ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/DigitalOcean_Rules.png)
+ 1) Create **Inbound Rules** with type **HTTP** or **HTTPS** as following:
+    ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/cloudflare_ips_empty.jpg)
  2) Execute `./update-firewalls.py` to update these DigitalOcean Inbound Rules.
-
+ 3) Now you have two **Inbound Rules** containing the following **Sources**:
+    ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/cloudflare_ips_done.jpg)
 
 ### Make cron
 
