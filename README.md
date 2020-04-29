@@ -23,7 +23,7 @@ This is useful to protect your backends against direct **DoS** and **DDoS** atta
 ### Example
 
  1) Create **Inbound Rules** with type **HTTP** and **HTTPS** as following:
-    ![](https://raw.githubusercontent.com/offensive-hub/cloudflare-update-firewall/master/resources/DigitalOcean_Rules.png)
+    ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/DigitalOcean_Rules.png)
  2) Execute `./update-firewall.py` to update the DigitalOcean Inbound Rules of these Firewalls
 
 ### Authors
