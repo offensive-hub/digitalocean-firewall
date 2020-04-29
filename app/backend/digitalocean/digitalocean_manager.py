@@ -4,17 +4,12 @@
 * digitalocean_manager.py -- DigitalOcean Manager class.                        *
 *                                                                               *
 *********************************************************************************
-*                                                                               *
-* This script search all firewalls with at least one "Inbound Rule" with type   *
-* HTTP or HTTPS and then update that by accepting only CloudFlare IPs.          *
-*                                                                               *
-*********************************************************************************
 """
 
 # noinspection PyPackageRequirements
 import digitalocean
 
-from app.digitalocean import DigitalOceanFirewall
+from app.backend.digitalocean import DigitalOceanFirewall
 
 
 class DigitalOceanManager(digitalocean.Manager):

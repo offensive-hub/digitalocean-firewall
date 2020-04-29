@@ -9,7 +9,7 @@
 from os.path import dirname, join, isfile
 
 # ------- Black-widow files ------- #
-ROOT_PATH = dirname(__file__)
+ROOT_PATH = dirname(dirname(__file__))
 PRIVATE_ENV_FILE = join(ROOT_PATH, '.env')
 
 # ----- Editable environments ----- #
