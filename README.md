@@ -12,6 +12,7 @@ This is useful to protect your backends against direct **DoS** and **DDoS** atta
 - [Warning](#-warning-)
 - [How to install](#how-to-install)
 - [Example](#example)
+- [Make cron](#make-cron)
 
 ### ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/danger_icon.png?v=1) Warning ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/danger_icon.png?v=1)
 
@@ -31,6 +32,23 @@ All **Inbound Rules** with `type = HTTP` or `type = HTTPS` of each **Firewall** 
  1) Create **Inbound Rules** with type **HTTP** and **HTTPS** as following:
     ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/DigitalOcean_Rules.png)
  2) Execute `./update-firewalls.py` to update these DigitalOcean Inbound Rules.
+
+
+### Make cron
+
+It would be useful to make a **cron**, which update the firewalls every **X** time.
+
+If you want that, follow these instructions:
+
+ 1) `crontab -e`
+ 2) Paste the following code at the end of file:
+    ```
+    # [00:00] Update DigitalOcean Firewalls with CloudFlare IPs
+    0 0 * * * /path/to/digitalocean-firewall/update-firewalls.py
+    ```
+ 3) Edit `/path/to/` with your real **path**
+ 4) Now your server will automatically update DigitalOcean Firewalls! :)
+
 
 ### Authors
 
