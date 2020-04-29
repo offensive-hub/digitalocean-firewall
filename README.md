@@ -47,7 +47,7 @@ If you want that, follow these instructions:
     0 0 * * * /path/to/digitalocean-firewall/update-firewalls.py
     ```
  3) Edit `/path/to/` with your real **path**
- 4) Now your server will automatically update DigitalOcean Firewalls! :)
+ 4) Now your server will automatically update DigitalOcean Firewalls every day at midnight! :)
 
 
 ### Authors
