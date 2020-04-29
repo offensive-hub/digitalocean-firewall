@@ -9,7 +9,7 @@ This is useful to protect your backends against direct **DoS** and **DDoS** atta
 
 ## Table of Contents
 
-- [Warning](#-warning)
+- [Warning](#-warning-)
 - [How to install](#how-to-install)
 - [Example](#example)
 
