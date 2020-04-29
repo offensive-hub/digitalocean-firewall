@@ -20,7 +20,7 @@ All **Inbound Rules** with `type = HTTP` or `type = HTTPS` of each **Firewall** 
 
 ### How to install
 
- 1) `git clone git@github.com:offensive-hub/digitalocean-firewall`
+ 1) `git clone git@github.com:offensive-hub/digitalocean-firewall.git`
  2) `cd cloudflare-update-firewall`
  3) `sudo pip install -U -r requirements.txt`
  4) `cp .env.example .env && chmod 600 .env`
