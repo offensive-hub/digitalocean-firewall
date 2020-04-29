@@ -13,7 +13,7 @@ This is useful to protect your backends against direct **DoS** and **DDoS** atta
 - [How to install](#how-to-install)
 - [Example](#example)
 
-### ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/danger_icon.png) Warning ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/danger_icon.png)
+### ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/danger_icon.png?v=1) Warning ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/danger_icon.png?v=1)
 
 All **Inbound Rules** with `type = HTTP` or `type = HTTPS` of each **Firewall**  will be overwritten.
 
