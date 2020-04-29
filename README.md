@@ -18,7 +18,7 @@ This is useful to protect your backends against direct **DoS** and **DDoS** atta
  2) `cd cloudflare-update-firewall`
  3) `sudo pip install -U -r requirements.txt`
  4) `cp .env.example .env && chmod 600 .env`
- 5) Write right [Digital Ocean Access Token](https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token/) in file `.env`
+ 5) Write right [Digital Ocean Access Token](https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token/) in **.env** file
 
 ### Example
 
