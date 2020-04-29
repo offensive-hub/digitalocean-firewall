@@ -22,7 +22,7 @@ All **Inbound Rules** with `type = HTTP` or `type = HTTPS` of each **Firewall** 
 
  1) `git clone https://github.com/offensive-hub/digitalocean-firewall.git`
  2) `cd digitalocean-firewall`
- 3) `sudo pip install -U -r requirements.txt`
+ 3) `sudo apt-get install python-pip && sudo pip install -U -r requirements.txt`
  4) `cp .env.example .env && chmod 600 .env`
  5) Write right [Digital Ocean Access Token](https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token/) in **.env** file
 
