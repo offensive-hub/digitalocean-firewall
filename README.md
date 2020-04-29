@@ -32,7 +32,7 @@ All **Inbound Rules** with `type = HTTP` or `type = HTTPS` of each **Firewall** 
  1) Create an **Inbound Rule** with type **HTTP** or **HTTPS** as following:
     ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/cloudflare_ips_empty.jpg)
  2) Execute `./update-firewalls.py` to update these DigitalOcean Inbound Rules.
- 3) Now you have two new **Inbound Rules** containing the [Official CloudFlare IPs](https://www.cloudflare.com/ips/):
+ 3) Now you have two new **Inbound Rules** containing the [official CloudFlare IPs](https://www.cloudflare.com/ips/):
     ![](https://raw.githubusercontent.com/offensive-hub/digitalocean-firewall/master/resources/cloudflare_ips_done.jpg)
 
 ### Make cron
