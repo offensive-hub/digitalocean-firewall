@@ -12,11 +12,12 @@ from os.path import dirname, join, isfile
 ROOT_PATH = dirname(dirname(__file__))
 PRIVATE_ENV_FILE = join(ROOT_PATH, '.env')
 
+CLOUDFLARE_IPS_V4_URL = "https://www.cloudflare.com/ips-v4"
+CLOUDFLARE_IPS_V6_URL = "https://www.cloudflare.com/ips-v6"
+
 # ----- Editable environments ----- #
 DIGITALOCEAN_ACCESS_TOKEN = None
 DIGITALOCEAN_BASE_URL = 'https://api.digitalocean.com/v2/'
-CLOUDFLARE_IPS_V4_URL = "https://www.cloudflare.com/ips-v4"
-CLOUDFLARE_IPS_V6_URL = "https://www.cloudflare.com/ips-v6"
 
 EDITABLE_ENV = (
     'DIGITALOCEAN_ACCESS_TOKEN',
