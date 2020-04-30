@@ -8,7 +8,7 @@
 
 from os.path import dirname, join, isfile
 
-# ------- Black-widow files ------- #
+# ----------- .env path ----------- #
 ROOT_PATH = dirname(dirname(__file__))
 PRIVATE_ENV_FILE = join(ROOT_PATH, '.env')
 
