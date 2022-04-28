@@ -5,7 +5,7 @@ A little script to update [**DigitalOcean** firewalls](https://cloud.digitalocea
 This is useful to protect your backends against direct **DoS** and **DDoS** attacks on ports **80** and **443**.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/150px-DigitalOcean_logo.svg.png)
-![](https://upload.wikimedia.org/wikipedia/en/6/65/Cloudflare_logo.png)
+![](https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Cloudflare-logo-vector.svg/1280px-Cloudflare-logo-vector.svg.png)
 
 ## Table of Contents
 
